@@ -21,6 +21,19 @@
  
  */
 // Answer question 4 below
+var diners : Int
+print ("the tolta number of people is integer")
+
+var sladber : Int
+var soup : Int
+var maincourse : Int
+var pizzaoven : Int
+print ("the total mass of them does not change integer")
+
+var date : String = "Thursday, January 18, 2018"
+var timeframe : String = "11:30 AM to 1:00 PM"
+print ("the date is also integer. the dubble is for variables )
+
 
 
 
