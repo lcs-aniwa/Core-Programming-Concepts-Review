@@ -24,15 +24,20 @@
 var diners : Int
 print ("the tolta number of people is integer")
 
-var sladber : Int
-var soup : Int
-var maincourse : Int
-var pizzaoven : Int
-print ("the total mass of them does not change integer")
+var dinerCount : Int = 4
+print ("an integer is used for dinercount becasue you really cannot have half or a quarter of a person" )
+
+
+var sladber : Double
+var soup : Double
+var maincourse : Double
+var pizzaoven : Double
+print ("A dubble- lercision floating print value (a Dubble) is used for the above four variables because these measurements could very well have part of a whole (for example, 3.4 kg of salad")
+
 
 var date : String = "Thursday, January 18, 2018"
 var timeframe : String = "11:30 AM to 1:00 PM"
-print ("the date is also integer. the dubble is for variables )
+print ("A String is used for these variables because you cannot store a mix of characters and numbers in any other data type")
 
 
 
