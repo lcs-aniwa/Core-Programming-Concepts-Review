@@ -18,16 +18,14 @@
  
  */
 // Answer question 2 below
-//The number of commits and forks could change
 var numberOfCommits : Int
+var numberOfForks : Int
+print("The number of commits and forks are mutable")
 
-print("The number of commits is mutable")
-print("The number of forks is mutable")
-
-//The number of Year and month won't change so we use constant
-let numberOfForks : 
-
-
+let yearCreated : Int
+let monthCreate : Int
+let dayCreate : Int
+print ("The number of year,month and day creted are constant")
 /*:
  ## Now share your understanding
  
