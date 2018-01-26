@@ -18,11 +18,19 @@
  
     You'll need to adjust the value of the constants immedidately below to test your code thoroughly.
  */
-let temperatureInCelsius = 15
+let temperatureInCelsius = 19
 let isRaining = true
 let isSunny = true
 
+let isNiceWeather = isRaining == false || temperatureInCelsius > 20 && isSunny == true
+
 // Answer question 5 below
+if isNiceWeather {
+    print("going for a walk")
+} else {
+    print("staying inside")
+}
+
 
 
 /*:
