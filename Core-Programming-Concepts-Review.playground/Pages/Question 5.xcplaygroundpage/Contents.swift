@@ -19,9 +19,6 @@
     You'll need to adjust the value of the constants immedidately below to test your code thoroughly.
  */
 
-
-
-
 let temperatureInCelsius = 19
 let isRaining = true
 let isSunny = true

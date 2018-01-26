@@ -18,12 +18,21 @@ let currentHeartRate = 128
 
 // Answer question 6 below
 
-if currentHeartRate>100 && currentHeartRate<120  {
+if currentHeartRate >= 100 && currentHeartRate <= 120  {
     print("You are in the Very Light zone. Activity in this zone helps with recovery.")
-} else if currentHeartRate>121 && currentHeartRate<140 {
+    
+} else if currentHeartRate >= 121 && currentHeartRate <= 140 {
     print ("You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning.")
-}
 
+} else if currentHeartRate >= 141 && currentHeartRate <= 160 {
+    print ("You are in the Moderate zone. Activity in this zone helps improve aerobic fitness.")
+    
+}else if currentHeartRate>=180 && currentHeartRate<=200 {
+    print ("You are in the Maximum zone. Activity in this zone helps fit athletes develop speed.")
+    
+}else if currentHeartRate >=200 {
+    print("slow down")
+}
 /*
  
  if CONDITION {
